@@ -25,6 +25,7 @@
   </build>
 
   <scm>
+    <url>http://github.com/nikolacvetkovic/maven</url>
     <connection>scm:git:https://github.com/nikolacvetkovic/maven.git</connection>
     <developerConnection>scm:git:https://github.com/nikolacvetkovic/maven.git</developerConnection>
   </scm>
