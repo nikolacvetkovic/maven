@@ -25,6 +25,7 @@
   </build>
 
   <scm>
+    <connection>scm:git:https://github.com/nikolacvetkovic/maven.git</connection>
     <developerConnection>scm:git:https://github.com/nikolacvetkovic/maven.git</developerConnection>
   </scm>
 
@@ -40,7 +41,7 @@
         <url>file:///d:/svnFakeRepo/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
-  
+
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
