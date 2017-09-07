@@ -14,8 +14,33 @@
           <target>1.6</target>
         </configuration>
       </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+      </plugin>
+
     </plugins>
   </build>
+
+  <scm>
+    <developerConnection>scm:git:https://github.com/nikolacvetkovic/maven.git</developerConnection>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+        <id>fakerepo</id>
+        <name>Local file system</name>
+        <url>file:///d:/svnFakeRepo/repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>fakesnapshotrepo</id>
+        <name>Local file system</name>
+        <url>file:///d:/svnFakeRepo/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
